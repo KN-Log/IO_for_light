@@ -28,7 +28,7 @@ int main(){
 	
 	if (read_bytes < 0)
 	{
-		fprintf (stderr, "myread: Cannot read file\n");
+		fprintf (stderr, "Cannot read file\n");
 		exit (1);
 	}
 
